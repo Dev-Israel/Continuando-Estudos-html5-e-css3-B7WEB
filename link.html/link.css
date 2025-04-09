@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.login1{
+    color:green;
+    font-size:20px;
+    border: 2px solid black;
+}
+
+.login1:hover {
+    color: blueviolet;
+}

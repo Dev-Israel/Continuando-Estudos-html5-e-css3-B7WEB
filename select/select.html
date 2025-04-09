@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html long="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Select</title>
+</head>
+<body>
+    <h1>Select</h1>
+        <p>Inputs</p>
+            <form action="teste/teste.html" method="get">
+               <select name="order">
+                <!--Muitos programdores usam no inicio apenas option sem nada. isso faz com que no site a primeira opição apareça em branco-->
+                <option></option>
+
+                    <option value="bestseller">Mais Vendidos</option>
+
+                    <option value="last">Recentes</option>
+                <!--Essa opição usando a propriedade selected, faz com que a opição fixa como primeira para o usuário.-->
+                    <option value="last" selected
+                    >Recentes</option>
+
+               </select> <br><br>
+                <input type="email"/>
+                    <input type="submit" value="Fazer Cadastro">
+
+
+            </form>
+</body>

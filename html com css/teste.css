@@ -1,0 +1,62 @@
+# ID_DO_ELEMENTO{
+    EX: A BAIXO
+
+}
+
+#titulo2{
+    color:green;
+    font-size:35px;
+}
+
+NOME_DO_ELEMENTO{
+    EXEMEPLO A BAIXO
+}
+img{
+    width: 250px;
+}
+
+. CLASS_DO_ELEMENTO{
+    EXEMPLO A BAIXO
+}
+.texto1{
+    font-weight: bold;
+}  
+
+# ID + . CLASS ELEMENTOS{
+    EX: A BAIXO
+
+}
+
+#titulo, .texto1{
+    background-color:rgba(127, 255, 212, 0.253);
+    font-weight:normal
+}
+
+ELEMENTO_OUTRO_ELEMENTO{
+    EX: A BAIXO
+}
+ol li{
+    color:pink;
+}
+
+button{
+    font-size:10px;
+    background-color:#142c21d7;
+}
+
+a{
+    color: aqua;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p{
+    border:0.5px solid blue;
+}
+
+div{
+    background-color:blueviolet;
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    border:2px solid red;
+}

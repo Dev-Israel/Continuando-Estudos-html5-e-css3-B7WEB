@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label</title>
+</head>
+<body>
+    <h1>Como usar Label dentro do Formulário</h1>
+    <form action="login/teste.html" me>
+    <h2>Sem For e ID:</h2>
+
+        <label>Nome Completo:</label> <br>
+        <input type="text" name="nome do usuário"
+        />
+        <input type="submit" name="enviar"/>
+
+        <br><br>
+    <h2>Com For e Id:</h2>
+    <!--Essa forma é mais avançada, onde usamos o "FOR" e "ID"-->
+        <input type="checkbox" id="teste" />
+        <label for="teste">Eu declaro que li e concordo com os termos de uso.</label>
+        <button> enviar</button>
+    <!--Temos outra forma para que esse efeito aconteça mais sem usar o for e id, veja a seguir.-->
+    <br><br>
+    <h2>2° Forma de fazer o efeito sem usar o For e o ID!</h2>
+        <label>
+            Adicione o E-mail: <br>
+            <input type="email" name="ensira o email" />
+        </label>
+        <input type="submit" name="enviar" />
+    </form>
+
+</body>
+</html>

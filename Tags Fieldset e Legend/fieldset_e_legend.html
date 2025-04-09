@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html long="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tags Fieldset e Legend</title>
+    <link rel="stylesheet" href="fieldset.css">
+</head>
+<body>
+    <h1>Tags Fieldset e Legend</h1>
+    <h2>Criando formulário</h2>
+        <form method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro Nome: <br/>
+<!--Uso do atributo "required" para fazer a verificação do campo primeiro nome-->
+
+<!--Temos a propriedade "minlenght, que usamos para limitar a quantidade minima de caracteris no campo indicado."-->
+
+<!--Temos tambem o atributo "maxlegth" que é a quantidade maxima de caracteres que queremos dentro do campo indidado.-->
+                <input type="text" name="nome do usuario" required />
+            </label><br/>
+
+            <label>
+            Sobrenome: <br/>
+
+                <input type="text" name="lastname"/>
+
+            </label><br/>
+
+            <label>
+            Data de Nascimento: <br/>
+
+                <input type="date" name="lastname" max="2025-04-01" required/>
+
+                </label><br/>
+
+                <label>
+                Email : <br/>
+
+                    <input type="email" name="email" pattern="r'^[a-zA-Z0-9. _%+-]+@[a-zA-Z0-9. -]+\. [a-zA-Z]{2,}$" title="Endereço de email" required />
+
+                </label><br/>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Dados Profissionais</legend>
+            
+            <label>
+                Nome da Empresa: <br/>
+
+                <input type="text" name="campanyname"/>
+
+            </label><br/>
+
+            <label>
+                Cargo na Empresa: <br/>
+
+                <input type="text" name="companyjobtitle"/>
+
+            </label><br/>
+
+        </fieldset>
+
+             <input type="submit" class="botao" value="Cadastrar" name="Fazer Cadastro"/>
+
+        </form>
+</body>
+</html>

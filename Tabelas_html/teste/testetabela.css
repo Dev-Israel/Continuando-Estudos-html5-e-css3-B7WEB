@@ -1,0 +1,56 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0px;
+}
+
+h1{
+    padding:10px;
+    background-color: antiquewhite;
+    margin: 10px;
+    border: 1px solid #000;
+    width: 580px;
+    border-radius: 10px;
+   
+}
+table{
+    padding:10px;
+    width: 600px;
+    border: 5px solid #3d3b3ba4;
+    margin:10px;
+    border-radius:10px;
+    
+    
+    
+}
+
+td,th{
+    border: 1px solid black;
+    height: 50px;
+    border-radius: 10px;
+    
+    
+     
+}
+
+thead{
+    background-color:blanchedalmond;
+   
+}
+
+tbody{
+    background-color:burlywood;
+    
+}
+
+thead tr:hover{
+    background-color:rgba(0, 255, 255, 0.342) ;
+}
+
+ tbody tr:hover{
+        background-color:aqua ;
+}
+
+

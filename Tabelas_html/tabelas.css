@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0
+}
+
+
+table{
+    
+    width: 600px; 
+}
+
+th,td{
+    border:1px solid #000000;
+    text-align: left;
+}
+
+table thead{
+    background-color:burlywood;
+
+}
+tbody tr:hover{
+    background-color:rgba(186, 215, 231, 0.445)
+}
+
+tbody tr:nth-child(even){
+    background-color:cornsilk
+}

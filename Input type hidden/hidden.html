@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden</title>
+</head>
+<body>
+    <h1>Como usar o Type="Hidden"</h1>
+     
+     <form method="POST" accept="application/form-data" >
+        <input type="hidden" name="country" value="BR" />
+
+        <fieldset>
+
+            <legend> Dados da empresa</legend>
+
+             <lebel>
+                Nome do Usuário: <br/>
+                 <input type="text" name="nome" required />
+             </lebel><br>
+            
+             <lebel>
+                Data de Nascimento: <br/>
+                 <input type="date" name="nacimento" max="2025-04-01" required />
+             </lebel> <br/>
+<!--Para selecionar apenas fotos usamos (type="file") para definir apenas foto usamos (accept="image/*")-->
+             <lebel>
+                Foto: <br/>
+                 <input type="file" name="photo" accept="image/*" required />
+             </lebel> <br/><br/>
+<!--Para selecionar apenas fotos usamos (type="file") para definir apenas foto usamos (application/pdf")-->
+             <lebel>
+                PDF: <br/>
+                 <input type="file" name="photo" accept="application/pdf" required />
+             </lebel> <br/><br/>
+
+
+             <input type="submit" class="botao" value=" Fazer Cadastro" />
+        </fieldset>
+     </form>
+</body>
+</html>

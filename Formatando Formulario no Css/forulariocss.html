@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html long="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formatando Formulário Com Css!</title>
+    <link rel="stylesheet" href="formularios.css">
+
+</head>
+<body>
+    <h1>Formatando Formulários usando Css</h1>
+    <h2>Área de Cadastro</h2>
+
+    <form action="login/teste.html" method="get"> 
+
+       <label > Nome do Usuário: <br></label> 
+
+         <input type="text" class="usuario"  name="nome do usuário"/>
+
+          <input type="submit" name="enviar" />
+        
+    <h2>Termos de Contrato</h2>
+
+        <label for="termos">
+            <input type="checkbox" id="termos" name="do contrato" />
+
+            Eu li eu declaro que li e aceito os <a href="https://www.youtube.com/" target="_blank" > termos de uso</a>.
+
+        </label>
+            <button> Fazer Cadastro</button>
+
+    <h2>Textarea</h2>
+        <label>
+            Descrição: <br>
+            <textarea name="descricao"></textarea>
+        </label>
+
+    <h2>Seleção de Categorias</h2>
+        <label>
+            Como Fazer Um Bolo: <br/>
+            <select name="categoria">
+                <option>Ferinha</option>
+                <option>Leite</option>
+                <option value="1">Ovos</option>
+                <option>Fermento</option>
+             </select>
+        </label>
+            
+      </form>
+
+</body>
