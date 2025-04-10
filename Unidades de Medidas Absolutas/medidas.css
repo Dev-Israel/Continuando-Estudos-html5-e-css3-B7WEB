@@ -1,0 +1,26 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+
+    margin:0px;
+}
+h1{
+
+    margin: 15px;
+    text-decoration:underline;
+}
+
+p{
+    margin:15px;
+}
+
+.quadrado{
+
+    width:300px;
+    height:300px;
+    background-color:#CCC ;
+    border: 1.5px solid #0c0a0a;
+    margin: 15px;
+}
