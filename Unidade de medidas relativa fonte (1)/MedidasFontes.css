@@ -1,0 +1,21 @@
+*{
+    box-sizing:border-box;
+
+}
+
+body{
+
+    margin:0px;
+}
+
+.box{
+
+    font-size:20px;
+}
+
+.box-interno{
+ 
+    width:11em;
+    height:11em;
+    background-color:bisque;
+}
