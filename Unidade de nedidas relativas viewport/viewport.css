@@ -1,0 +1,18 @@
+*{
+    box-sizing:border-box
+}
+body{
+    margin:0px;
+    font-size:18px;
+   
+    
+}
+
+.box{
+    margin:10px;
+    background-color:#cfc1c1cc;
+    color:#000;
+    height:100vh;
+    width:50vw;
+    border: 1px solid #00000088;
+} 
