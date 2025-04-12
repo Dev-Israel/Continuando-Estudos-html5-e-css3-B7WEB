@@ -1,0 +1,27 @@
+.box{
+    height:400px;
+    width:50%;
+    background-color:#999;
+}
+
+.box-interno{
+    background-color:rgb(124, 122, 122) ;
+    width:50%;
+    height:50%;
+}
+
+body{
+    font-family:courier;
+    font-size: 15px;
+}
+.box2{
+    width:300px;
+    background-color:#e28228;
+}
+
+.box2-interno{
+    background-color:#3a3632;
+    color:#deb887;
+    width:18ch;
+    
+}
