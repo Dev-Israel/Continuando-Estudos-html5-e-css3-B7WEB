@@ -1,0 +1,20 @@
+body{
+    margin:0px;
+    background-color:#cccccc;
+}
+ h1{
+    background-color:antiquewhite;
+    color:#b91b1b;
+    border:1px solid #000;
+    width:50vh;
+    height:10vw;
+    margin:10px;
+    text-align: center;
+
+}
+
+.botao{
+    color:rgb(2, 51, 47);
+    margin:10px;
+
+}
