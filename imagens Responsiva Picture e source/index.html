@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Responsivas</title>
+</head>
+<body>
+    <h1>Imagens Responsivas: Picture e Source</h1>
+        <!--<p>As tags que usaremos para demostrar o exemplo sobre como deixar a tela responsiva usando imagens, são as tags (PICTURE), (SOURCE MEDIA= ("min-hidth: 650px)" SRCSET= IMAGEM.JPG) ,e (IMG SRC="Imagem")</p>--> </br>
+        <picture>
+            <source media="(min-width: 650px)" srcset="3.png"/>
+            <source media="(min-width: 450px)" srcset="4.png"/>
+            <img src="1.jpg" alt="Imagem alternativa" style="width:830px"/>
+        </picture>
+</html>
