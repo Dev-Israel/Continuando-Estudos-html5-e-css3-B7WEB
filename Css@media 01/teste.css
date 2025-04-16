@@ -1,19 +1,77 @@
-body{
-    background-color: black;
-}
-h1{
-    color: aliceblue;
-    margin:20px;
-}
-@media(max-width:600px){
-    body{
-    background-color:#CCC;
-    }
-}
-@media(max-width:500px){
-    h1{
-        color:rgb(0, 0, 0);
-        text-decoration: underline;
+@media(max-width:1600px){
 
-    }
+        body{
+            background-color: black;
+            color:aliceblue;
+            }
+        h1{
+            color:azure;
+            font-size:68px;
+            text-align:center;
+            font-family: "Big Shoulders Stencil", sans-serif;
+        }
+        table,td{
+            border:1px solid #c22121;
+            width: 300px;
+            margin: 16px;
+            
+        }
 }
+
+
+@media(max-width:1000px)and (max-width:1600px){
+        body{
+            background-color: rgb(187, 171, 78);
+            color:aliceblue;
+        }
+        h1{
+            color:azure;
+            font-size:50px;
+            text-align:center;
+            font-family: "Big Shoulders Stencil", sans-serif;
+        }
+        table,td{
+            border:1px solid #000;
+            width: 300px;
+            margin: 16px;
+        }
+    }
+@media(max-width:750px)and (max-width:1000px){
+        body{
+            background-color: rgb(108, 235, 69);
+            color:aliceblue;
+            }
+        h1{
+            color:azure;
+            font-size:30px;
+            text-align:center;
+            font-family: "Big Shoulders Stencil", sans-serif;
+        }
+        table,td{
+            border:1px solid #000;
+            width: 300px;
+            margin: 16px;
+        }
+    }
+@media(max-width:300px)and (max-width:750px){
+            body{
+                background-color: rgb(69, 235, 227);
+                color:aliceblue;
+                }
+            h1{
+                color:azure;
+                font-size:20px;
+                text-align:center;
+                font-family: "Big Shoulders Stencil", sans-serif;
+               
+                  
+
+            }
+            table,td{
+                border:1px solid #000;
+                width: 300px;
+                margin: 16px;
+            }
+    }
+
+   
