@@ -1,0 +1,18 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:16px;
+}
+h1{
+    margin:16px;
+    background-color: #CCC;
+}
+img{
+    width:400px;
+    height:400px;
+    object-fit:contain;
+    margin-left:-80px;
+   
+}
+
