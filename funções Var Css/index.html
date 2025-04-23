@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções Variaveis no CSS</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+    <div class="titulo">
+    <h1 >Como usar funções variáves no css?</h1>
+    </div>
+    <h2>Usando função var:</h2>
+        <div class="container">
+            algum conteúdo qualquer:
+        </div>
+    <p>
+        A função <code>var()</code> em CSS é utilizada para inserir o valor de uma variável CSS em uma propriedade CSS. Essencialmente, ela permite que você use uma variável definida anteriormente como o valor de uma propriedade, tornando o código mais fácil de manter e ler. 
+        Como funciona. <br><br>
+
+        <strong>1. Declaração de Variáveis CSS:</strong><br>
+
+        Para usar a função var(), você primeiro precisa declarar uma variável CSS. Isso é feito começando com dois hífens (--) antes do nome da variável, como --cor-principal. <br><br>
+
+        <strong>2. Utilização da Função var():</strong><br>
+
+        Depois de declarar a variável, você usa a função var() para acessar o seu valor. Por exemplo, para usar o valor da variável --cor-principal na propriedade color, você escreveria color: var(--cor-principal);<br><br>
+
+        <strong>3. Argumentos da Função var():</strong><br>
+        A função var() aceita dois argumentos:
+        O nome da variável CSS que você quer usar.
+        Um valor de fallback (opcional). Se a variável CSS não for encontrada ou o valor for inválido, o navegador usará o valor de fallback.
+        <strong> <br> <br>
+            4. Exemplo: 
+            <div class="container">Código
+            
+                :root {
+                  --cor-principal: blue;
+                  --fonte-padrao: 16px;
+                }
+            
+                .elemento {
+                  color: var(--cor-principal, red); /* Se --cor-principal não existir, a cor será vermelha */
+                  font-size: var(--fonte-padrao, 1em); /* Se --fonte-padrao não existir, o tamanho da fonte será 1em */
+                }
+            </div>
+            </strong><br><br>
+       
+        Benefícios de usar a função var():
+        Facilidade de manutenção:
+        Você pode alterar o valor da variável em um único lugar e a alteração será refletida em todos os lugares onde ela for usada. 
+        Código mais legível:
+        Usar variáveis CSS torna o código mais fácil de entender, pois você está usando nomes significativos em vez de valores específicos. 
+        Dinamismo:
+        Você pode usar variáveis CSS para criar temas e estilos diferentes, ou até mesmo alterar o estilo do site usando JavaScript. 
+        Código mais limpo:
+        Evita a repetição de valores e torna o CSS mais conciso. 
+        Em resumo, a função var() em CSS é uma ferramenta poderosa para trabalhar com variáveis, facilitando o desenvolvimento, manutenção e flexibilidade dos estilos do seu site. </p>
+</body>
+</html>

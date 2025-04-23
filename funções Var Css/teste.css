@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+/*root de comando para as variáveis:*/
+:root{
+    --bg-color:#FFF;
+    --bg-second:#CCC;
+    --font-color:#FF0000;
+}
+
+/*Usando a Root nas variáveis:*/
+
+/*quando por algum motivo a variavel não achou o valor indicado usamos como auternativa a segunte forma:
+color:cor, cor auternativa;
+
+color:green, blue;*/
+
+body{
+    background-color: var(--bg-color);
+}
+.titulo{
+    font-size: 25px;
+    color: var(--font-color);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration:underline;
+    border:2px solid #000;
+
+}
+h2{
+    color:#fff;
+}
+.container{
+    background-color:var(--font-color);
+    color:rgb(247, 247, 247);
+    font-size:20px;
+}
+p{
+    color:var(--font-color);
+}
+    
