@@ -1,0 +1,27 @@
+:root{
+--bg-colo:#CCC;
+--bg-second:#FFF;
+--font-size:20px;
+--margin-text:30px;
+   
+}
+body{
+    background-color:var(--bg-colo);
+    font-size: var(--font-size);
+    margin: var(--margin-text);
+}
+h1{
+    color:var(--font-color, #0000FF);
+}
+.container{
+    background-color:var(--bg-second);
+    color:var(--font-color);
+}
+
+/*usando o @media dentro da Var:*/
+@media(max-width:468px){
+    :root{
+        --font-size:15px;
+        
+    }
+}

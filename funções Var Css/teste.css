@@ -5,7 +5,7 @@
 :root{
     --bg-color:#FFF;
     --bg-second:#CCC;
-    --font-color:#FF0000;
+    --font-color:#eb0a0a;
 }
 
 /*Usando a Root nas variáveis:*/
@@ -19,6 +19,7 @@ body{
     background-color: var(--bg-color);
 }
 .titulo{
+    background-color: var(--bg-second);
     font-size: 25px;
     color: var(--font-color);
     font-family: Arial, Helvetica, sans-serif;
@@ -31,8 +32,8 @@ h2{
     color:#fff;
 }
 .container{
-    background-color:var(--font-color);
-    color:rgb(247, 247, 247);
+    background-color:var(--bg-second);
+    color:var(--font-color);
     font-size:20px;
 }
 p{
