@@ -17,7 +17,11 @@ h1{
     background-color:var(--bg-second);
     color:var(--font-color);
 }
+p{
+    text-align:justify;
+    margin:var(--font-size);
 
+}
 /*usando o @media dentro da Var:*/
 @media(max-width:468px){
     :root{
