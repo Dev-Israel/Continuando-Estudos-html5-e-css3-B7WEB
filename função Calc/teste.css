@@ -1,7 +1,7 @@
 body{
     margin:0px;
 }
-
+/*Usando calc(% - Px)*/
 .container{
     background-color:#CCC;
     width:calc(100% - 20px);
