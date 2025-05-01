@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+p{
+    text-align: justify;
+    background-color: #ccccccc5;
+}
+form{
+    width: 150px;
+    height: 100px;
+    
+}
+fieldset{
+    margin: 100px;
+    background-color:antiquewhite ;
+    
+}
+.usuario{
+    margin-top:10px;
+}
+.enviar:hover{
+    color:rgb(250, 142, 1) ;
+}
