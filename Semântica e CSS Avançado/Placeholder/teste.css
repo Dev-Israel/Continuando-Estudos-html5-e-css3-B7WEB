@@ -4,12 +4,9 @@
 body{
     background-color: #CCC;
 }
-.container{
-    width: 200px;
-    height: 150px;
-    background-color: #1d1818cc;
-    text-align: center;
-    margin-top: px;
+fieldset{
+   width: 150px; 
+   background-color: #CCCC;
 }
 .usuario,senha1{
     margin-top: 20px;
