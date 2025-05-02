@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(112, 111, 107) ;
+}
+form{
+    background-color:aliceblue;
+    width: 220px;
+    height: 180px;
+    margin:auto;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+input{
+    padding:5px;
+    font-size:13px;
+    margin-top: 8px;
+}
+
+button{
+    margin-top: 8px;
+}
+
+
