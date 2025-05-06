@@ -3,15 +3,22 @@
 }
 body{
     background-color:rgb(112, 111, 107) ;
+    
 }
 form{
-    background-color:aliceblue;
+    
+    background-color:rgba(240, 248, 255, 0.753);
     width: 220px;
     height: 180px;
     margin:auto;
     padding: 20px;
     margin-top: 20px;
+    
 
+}
+h1{
+    text-align: center;
+    color: rgb(223, 235, 245);
 }
 input{
     padding:5px;
