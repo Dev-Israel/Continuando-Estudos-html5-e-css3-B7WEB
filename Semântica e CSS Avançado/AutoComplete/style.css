@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgrey;
+}
+form{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 350px;
+    font-size: 35px;
+    border: 1.5px solid #000;
+    
+    text-align: center;
+    position: absolute;
+    margin: 20px;
+    
+}
+input{
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    padding: 8px;
+}
+button:hover{
+        color: rgb(32, 117, 167);
+}
+p{
+    word-break: break-all;
+    color: rgb(15, 15, 15);
+}

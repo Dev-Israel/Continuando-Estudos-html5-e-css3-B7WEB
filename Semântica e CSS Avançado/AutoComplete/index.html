@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoComplete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>AutoComplete</h1>
+
+    
+   
+    <p>Em HTML, o atributo autocomplete permite que os navegadores preencham automaticamente campos de formulário, como nome, e-mail e endereço, com base em informações previamente inseridas pelo usuário. Isso facilita a vida do usuário e economiza tempo. <br><br>
+        Como funciona: <br><br>
+        <li>O atributo autocomplete é adicionado a elementos input ou form.</li> 
+        <li>Se o atributo estiver definido como on, o navegador pode tentar preencher automaticamente os campos.</li> 
+        <li>Se o atributo estiver definido como off, o preenchimento automático é desativado.</li>  
+        <li>O navegador usa o histórico do usuário para preencher os campos, oferecendo sugestões ou preenchendo automaticamente as informações.</li> <br>
+        O usuário pode optar por aceitar ou rejeitar as sugestões do navegador. </p><br>
+
+        <form method="Post">
+            Usuário: <br>
+          <input type="email" name="usuario" placeholder="Usuário" autocomplete="on" required /> <br>
+          Senha: <br>
+          <input type="password" name="senha" placeholder="senha" autocomplete="on" required maxlength="8" /> <br>
+          <button> Enviar</button>
+       </form>
+    
+     
+     
+</body>
+</html>
