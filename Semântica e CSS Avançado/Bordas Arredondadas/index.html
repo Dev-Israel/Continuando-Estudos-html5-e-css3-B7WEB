@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas</title>
+    <style>
+        #arredondado {
+          width: 400px;
+          height: 300px;
+          background-color: lightblue;
+          border-radius: 50px 50px 50px 50px; /* Arredonda os cantos com raio de 20px */
+          margin-left: 100px;
+          margin-top: 100px;
+        }
+        p{
+            word-break: normal;
+            text-align: justify;
+            width: 500px;
+            background-color: antiquewhite;
+        }
+        input{
+            margin-left: 100px;
+            margin-top: 80px;
+        }
+        .senha{
+            margin-left: 100px;
+            margin-top: 20px;
+            
+        }
+        button{
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+       
+ </style>
+</head>
+<body>
+    <h1>Bordas Arredondadas</h1>
+        <p>Bordas arredondadas em HTML e CSS são criadas utilizando a propriedade border-radius em CSS. Esta propriedade permite que os cantos de um elemento sejam arredondados, em vez de quadrados. Com a border-radius, é possível criar efeitos como arredondar todos os cantos de uma vez ou arredondar cada canto individualmente. 
+            Como funciona:
+            A propriedade border-radius aceita um valor que representa o raio do arco que será utilizado para arredondar os cantos. 
+            O valor pode ser especificado em unidades como pixels (px), porcentagens (%), ou outras unidades CSS. 
+            Se você usar um valor para border-radius de 50% num elemento quadrado, o elemento se transformará num círculo. 
+            Exemplo:
+        </p>
+
+        <div id="arredondado">
+            <form action="POST">
+                <input type="text" name="nome" placeholder="Usuario" autocomplete="on" required />  
+                <input type="passeord" class="senha" name="senha" placeholder="Senha" autocomplete="on" required /> 
+                <button>Enviar</button>
+            </form>
+        </div>
+</body>
+</html>
