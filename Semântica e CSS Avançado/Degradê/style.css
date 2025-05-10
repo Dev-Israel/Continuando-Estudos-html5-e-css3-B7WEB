@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    background:linear-gradient(to right, rgb(214, 210, 210), rgb(187, 187, 169), rgb(151, 212, 151));/* Exemplo de degradê linear */
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+}
+#lineargradient{
+    width: 200px;
+    height: 100px;
+    margin:auto;
+    background:linear-gradient(to right, red, yellow, green);/* Exemplo de degradê linear */
+}
+#radialgradient{
+    width: 200px;
+    height: 100px;
+    margin:auto;
+    background:radial-gradient(at right, rgb(194, 184, 184), rgb(53, 53, 41), rgb(95, 155, 95));/* Exemplo de degradê linear */
+}
+#conicgradient{
+    width: 200px;
+    height: 100px;
+    margin:auto;
+    background:conic-gradient(from 95deg, red, yellow);/* Exemplo de degradê linear */
+}
+
