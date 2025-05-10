@@ -5,20 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bordas</title>
     <style>
-        #arredondado {
+        @media(max-width:1800px){
+        #arredondado{  
+          display: flex;
           width: 400px;
           height: 300px;
           background-color: lightblue;
           border-radius: 50px 50px 50px 50px; /* Arredonda os cantos com raio de 20px */
-          margin-left: 100px;
-          margin-top: 100px;
+          margin-top: 65px;
+          margin: 0 auto;
         }
-        p{
-            word-break: normal;
+        
+        h1{
+            margin: auto;
+            text-align: center;
+            
+        }
+
+        #text{
+            display: flex;
             text-align: justify;
-            width: 500px;
             background-color: antiquewhite;
+            
+            
         }
+        }
+        
+        
         .usuario{
             margin-left: 100px;
             margin-top: 80px;
@@ -41,18 +54,17 @@
             border-radius: 10px;
             padding: 5px;
             border: 0px;
-            width:100px;
+            width:60px;
             display: flex;
             margin: auto;
-            
-            
-            
         }
+      
        
  </style>
 </head>
 <body>
     <h1>Bordas Arredondadas</h1>
+    <div id="text">
         <p>Bordas arredondadas em HTML e CSS são criadas utilizando a propriedade border-radius em CSS. Esta propriedade permite que os cantos de um elemento sejam arredondados, em vez de quadrados. Com a border-radius, é possível criar efeitos como arredondar todos os cantos de uma vez ou arredondar cada canto individualmente. 
             Como funciona:
             A propriedade border-radius aceita um valor que representa o raio do arco que será utilizado para arredondar os cantos. 
@@ -60,7 +72,7 @@
             Se você usar um valor para border-radius de 50% num elemento quadrado, o elemento se transformará num círculo. 
             Exemplo:
         </p>
-
+    </div>
         <div id="arredondado">
             <form action="POST">
                 <input type="text" class="usuario" name="nome" placeholder="Usuario" autocomplete="on" required />  
