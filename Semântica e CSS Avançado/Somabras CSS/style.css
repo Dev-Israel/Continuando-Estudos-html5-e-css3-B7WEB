@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+@keyframes sombras{
+    0%{background-color: #3e8a70; top: 0px; left: 0px;}
+    25%{background-color: aquamarine; top: 0px; left: 200px;}
+    50%{background-color: rgb(172, 231, 93); top: 200px; left: 200px;}
+    75%{background-color: rgb(10, 218, 62); top: 200px; left: 0px;}
+    100%{background-color: #3e8a70; top: 0px; left: 0px;}
+}
+.sombras{
+    height: 250px;
+    width: 250px;
+    background-color: aquamarine;
+    margin: 100px;
+    margin-top: 100px;
+    position: absolute;
+    box-shadow: 10px 10px 20px rgb(53, 53, 53) ;
+    animation-name: sombras;
+    animation-duration:5s ;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+}
+h1{
+    background-color: antiquewhite;
+    text-align: center;
+    text-shadow: 1px 1px 5px #000;
+}
