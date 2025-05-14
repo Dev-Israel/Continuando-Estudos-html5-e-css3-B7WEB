@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 139, 139, 0.288);
+    margin: 0;
+}
+.texto{
+    background-color: blanchedalmond;
+    width: 500px;
+    height: 900px;
+    border: 2px solid #000;
+    word-wrap: break-word;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+h1{
+    background-color:aquamarine ;
+    font-size: 35px;
+    text-align: center;
+    
+}
+p{
+    margin: 10px;
+    word-wrap: break-word;
+    text-align: justify;
+}
