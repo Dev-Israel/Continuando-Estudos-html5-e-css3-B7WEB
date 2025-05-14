@@ -1,11 +1,31 @@
+body{
+    background-color: bisque;
+}
+
 #conteiner{
     background-color: antiquewhite;
     padding: 5px;
     border: 1px solid #000;
     display: table;
     max-width: 100%;
+    position: relative;
+    margin: auto;
+    width: 500px;
+    height: 900px;
+
+}
+h1{
+    color: rgb(2, 10, 10);
+    background-color: rgb(175, 157, 133);
+    text-align: center;
+    margin: auto;
+    margin-bottom:30px ;
+    position: relative;
+    width: 400px;
+    border-radius: 10px;
 }
 p{
     text-align: justify;
     word-wrap: break-word;
 }
+
