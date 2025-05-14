@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#ccc ;
+    margin: 0;
+}
+.transição{
+    width: 250px;
+    height: 250px;
+    background-color:aqua;
+    position: relative;
+    animation-name: transição;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px 10px 15px 15px;
+    box-shadow: 1px 1px 15px #5e5050;
+
+
+    /*Usando transição*/
+    transition: all 1s linear;
+
+}
+h1{
+    text-align: center;
+}
+.link1,a{
+    color: rgb(12, 12, 14);
+    transition: all 1s linear;
+    margin-left: 275px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-top:50px;
+}
+.texto1, a{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    position:relative ;
+    margin: auto;
+    margin-top: 50px;
+    text-align: justify;
+}
+    /*Usando a Transição*/
+.transição:hover{
+    background-color: #5e5050;
+    width: 500px;
+}
+a:hover{
+    color: rgb(245, 140, 3);
+}
+.texto1, a{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    position:relative ;
+    margin: auto;
+    margin-top: 50px;
+    text-align: justify;
+}
