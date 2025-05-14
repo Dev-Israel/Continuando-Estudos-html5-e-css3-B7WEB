@@ -1,0 +1,11 @@
+#conteiner{
+    background-color: antiquewhite;
+    padding: 5px;
+    border: 1px solid #000;
+    display: table;
+    max-width: 100%;
+}
+p{
+    text-align: justify;
+    word-wrap: break-word;
+}
