@@ -1,0 +1,18 @@
+@keyframes figure{
+   0%{background-color:burlywood; top: 0px; left: 0px;}
+    25%{background-color: aqua;top: 0px; left: 200px;}
+    50%{background-color:black;top: 200px; left: 200px;}
+    75%{background-color:chartreuse;top: 200px; left: 0px;}
+    100%{background-color: burlywood;top: 0px; left: 0px;}
+}
+
+figure{
+   
+    padding: 5px;
+    border: 1px solid #000;
+    animation-name:figure;
+    animation-duration:5s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+    
+}
