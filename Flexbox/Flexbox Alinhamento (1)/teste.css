@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #DDDD;
+}
+.conteiner{
+    background-color: bisque;
+    height: 300px;
+    display: flex;
+    margin: 10px;
+    /* justify-content: space-around; Faz o alinhameto mais da um espaço de forma que seja igual ao tamanho*/
+    justify-content: center; /*Informando que as div irão ficar no centro da conteiner ou da tela, alinhamento orizontal*/
+    align-items: center;/*Informando que as div irão ficar no centro da conteiner ou da tela, alinhamento Vertical*/
+
+   /* flex-wrap: wrap;*/ /*Permite Quebra de linhas*/ 
+   /* flex-flow: row wrap;*/ /*pode usar "row ou Column" Alinhamento em linha e Quebra de linha */
+}
+.conteiner div{
+    width:100px;
+    height: 100px;
+    background-color: rgb(79, 173, 79);
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+    
+
+}
