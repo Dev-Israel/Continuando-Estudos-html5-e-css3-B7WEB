@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.conteiner{
+    height: 500px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+}
+.conteiner div{
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 15px;
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 8px 10px 10px #000;
+}
+.div3{
+    align-self: flex-start; /*muda a posição individual do item para cima*/
+    order: -1;
+}
+.div1{
+    align-self: flex-end; /*muda a posição individual do item para baixo*/
+}
